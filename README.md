@@ -2,7 +2,7 @@
 
 | Folder | Stack | Owner |
 |---|---|---|
-| /backend | Node.js | @backend-team |
+| /backend | Laravel | @backend-team |
 | /ios-app | Swift | @ios-team |
 | /android-app | Kotlin | @android-team |
 | /shared | API specs | shared |

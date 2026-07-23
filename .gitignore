@@ -1,0 +1,21 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/dist/
+
+# iOS
+ios-app/build/
+ios-app/DerivedData/
+ios-app/*.xcuserstate
+ios-app/.swiftpm/
+
+# Android
+android-app/.gradle/
+android-app/build/
+android-app/*.iml
+android-app/local.properties
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

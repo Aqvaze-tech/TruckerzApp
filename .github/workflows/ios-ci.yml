@@ -1,0 +1,15 @@
+name: iOS CI
+on:
+  push:
+    paths: ['ios-app/**']
+  pull_request:
+    paths: ['ios-app/**']
+jobs:
+  build:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: ios-app
+    steps:
+      - uses: actions/checkout@v4
+      - run: xcodebuild test -scheme MyApp -destination 'platform=iOS Simulator,name=iPhone 15'
